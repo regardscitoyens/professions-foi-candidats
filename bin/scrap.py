@@ -20,9 +20,9 @@ if __name__ == '__main__':
         os.makedirs('pdfs')
     HOSTURL = 'http://programme-candidats.interieur.gouv.fr'
     DATAURL = HOSTURL + '/data-jsons/'
-    with open('listes.csv') as f:
+    with open(os.path.join('res', 'listes.csv')) as f:
         listeIds = dict((row['nom'].strip().decode('utf-8'), row['couleur politique'].strip()) for row in list(csv.DictReader(f)))
-    with open('regions.csv') as f:
+    with open(os.path.join('res', 'regions.csv')) as f:
         regionIds = dict((row['region'].strip().decode('utf-8'), row['sigle'].strip()) for row in list(csv.DictReader(f)))
     for tour in [1, 2]:
         regions = requests.get(DATAURL + 'elections-%s-regions.json' % tour).json()
