@@ -5,6 +5,9 @@ import os, csv, sys
 import requests
 import shutil
 
+HOSTURL = 'http://programme-candidats.interieur.gouv.fr'
+DATAURL = HOSTURL + '/data-jsons/'
+
 def downloadPDF(filepath, filename, url):
     filepath = os.path.join(filepath, filename)
     if os.path.exists(filepath):
@@ -15,11 +18,10 @@ def downloadPDF(filepath, filename, url):
         r.raw.decode_content = True
         shutil.copyfileobj(r.raw, f)
 
-if __name__ == '__main__':
+# deprecated
+def collect_regionales_2015():
     if not os.path.exists('pdfs'):
         os.makedirs('pdfs')
-    HOSTURL = 'http://programme-candidats.interieur.gouv.fr'
-    DATAURL = HOSTURL + '/data-jsons/'
     with open(os.path.join('res', 'listes.csv')) as f:
         listeIds = dict((row['nom'].strip().decode('utf-8'), row['couleur politique'].strip()) for row in list(csv.DictReader(f)))
     with open(os.path.join('res', 'regions.csv')) as f:
@@ -42,3 +44,7 @@ if __name__ == '__main__':
                 else:
                     print >> sys.stderr, "WARNING: profession de foi missing for", codeId
 
+if __name__ == '__main__':
+    election = sys.argv[1] or "ER15"
+    if election == "ER15":
+        collect_regionales_2015()
