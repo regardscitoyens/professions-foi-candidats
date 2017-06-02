@@ -133,7 +133,7 @@ def scrape_election(el):
     with open(os.path.join(eldir, "%s-tour%s-metadata.json" % (el["code"], el["tour"])), "w") as f:
         json.dump(el, f, indent=2)
     if nb_n:
-        print "%s: %s new documents collected (%s total candidates are published out of %s listed in %s %s and %s %s)." % (el["name"], nb_n, nb_d, nb_c, nb_g, el["granu"], nb_g2, el["granu2"])
+        print "%s: %s new documents collected (%s total candidates are published out of %s listed in %s %s and %s %s)." % (el["name"].encode("utf-8"), nb_n, nb_d, nb_c, nb_g, el["granu"], nb_g2, el["granu2"])
 
 if __name__ == '__main__':
     election = ""
