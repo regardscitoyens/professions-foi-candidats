@@ -10,6 +10,7 @@ bin/scrap.py >> /tmp/load_prof_foi.tmp 2>&1
 
 if git status | grep "documents/" > /dev/null; then
   cat /tmp/load_prof_foi.tmp
-  git commit documents -m "autoupdate"
+  git add documents
+  git commit -m "autoupdate"
   git push
 fi
