@@ -34609,8 +34609,8 @@
               "candidate": "DE MONTCHALIN, Am\u00e9lie", 
               "order": 13, 
               "file_hash": "6c2ff35c61c1651ea4562b9a124501645970d658056ad272b0d33fd12ef7394c", 
-              "isPropagandeDummy": false, 
-              "propagandeSize": 703, 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
               "propagande": "/data-pdf-propagandes/6c2ff35c61c1651ea4562b9a124501645970d658056ad272b0d33fd12ef7394c-profession-de-foi.pdf", 
               "propagandeAccessible": true, 
               "substitute": "ATGER, St\u00e9phanie"
