@@ -112,6 +112,9 @@ def scrape_election(el):
     url = DATAURL + "elections-%s-%s" % (el["id"], el["granu"])
     for grain in request_data(url, el["granu"]):
         nb_g += 1
+        graindir = os.path.join(eldir, grain["id"])
+        if not os.path.exists(graindir):
+            os.makedirs(graindir)
         grain[el["granu2"]] = {}
         el[el["granu"]][grain["id"]] = grain
         url1 = url + "-%s-%s" % (grain["id"], el["granu2"])
@@ -126,9 +129,9 @@ def scrape_election(el):
                 codeId = '%s-%s-%s-%s-%s-tour%s-' % (el["code"], grain["id"], grain2["id"], name, candidate["order"], el["tour"])
                 if not candidate['isPropagandeDummy']:
                     nb_d += 1
-                    nb_n += downloadPDF(eldir, codeId + 'profession_foi', HOSTURL + candidate['propagande'])
+                    nb_n += downloadPDF(graindir, codeId + 'profession_foi', HOSTURL + candidate['propagande'])
                 if "isBulletinDummy" in candidate and not candidate['isBulletinDummy']:
-                    nb_n += downloadPDF(eldir, codeId + 'bulletin_vote', HOSTURL + candidate['bulletinDeVote'])
+                    nb_n += downloadPDF(graindir, codeId + 'bulletin_vote', HOSTURL + candidate['bulletinDeVote'])
 
     with open(os.path.join(eldir, "%s-tour%s-metadata.json" % (el["code"], el["tour"])), "w") as f:
         json.dump(el, f, indent=2)
