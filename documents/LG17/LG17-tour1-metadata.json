@@ -39437,10 +39437,10 @@
               "candidate": "HAROUCHE, Karine", 
               "order": 12, 
               "file_hash": "c22d4a676e6ad269f057d4724640391f358676a2bc637aef347b0f0089e412ea", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 123, 
               "propagande": "/data-pdf-propagandes/c22d4a676e6ad269f057d4724640391f358676a2bc637aef347b0f0089e412ea-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "ARDIZZONI, Nicolas"
             }, 
             {
@@ -39689,8 +39689,8 @@
               "candidate": "DAVI, Hendrik", 
               "order": 2, 
               "file_hash": "4a0cbaa361b62700cdbd9ebb3a0bcb4845cacb59c6a89e8aef78843ff6918068", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 687, 
               "propagande": "/data-pdf-propagandes/4a0cbaa361b62700cdbd9ebb3a0bcb4845cacb59c6a89e8aef78843ff6918068-profession-de-foi.pdf", 
               "propagandeAccessible": false, 
               "substitute": "MANDINE, Anne"
