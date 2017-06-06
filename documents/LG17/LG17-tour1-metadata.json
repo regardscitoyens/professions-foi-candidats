@@ -45785,6 +45785,420 @@
       "id": "17", 
       "name": "Charente-Maritime"
     }, 
+    "16": {
+      "circumscriptions": {
+        "1": {
+          "candidates": [
+            {
+              "candidate": "SERRANO, Guillaume", 
+              "order": 1, 
+              "file_hash": "62d5dcc0e0f92d2819871066398b10b6273a23c84cf30b99e3398cfa5ed70817", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 1373, 
+              "propagande": "/data-pdf-propagandes/62d5dcc0e0f92d2819871066398b10b6273a23c84cf30b99e3398cfa5ed70817-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "CHERGUI, Nassim"
+            }, 
+            {
+              "candidate": "NICOLAS, Olivier", 
+              "order": 2, 
+              "file_hash": "cd770bb26ac708d7dfc79fef7733fc02c37f18d1d4cbac3914ef11f150f9fad6", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 196, 
+              "propagande": "/data-pdf-propagandes/cd770bb26ac708d7dfc79fef7733fc02c37f18d1d4cbac3914ef11f150f9fad6-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "COURTOIS, Jean-Pierre"
+            }, 
+            {
+              "candidate": "MERIOUA, Djillali", 
+              "order": 3, 
+              "file_hash": "d08ccd692a869a1cf7e100466adb5dbb53200181dffc7e6b504b3819e70ca253", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/d08ccd692a869a1cf7e100466adb5dbb53200181dffc7e6b504b3819e70ca253-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "VINET, Maryline"
+            }, 
+            {
+              "candidate": "DE LORGERIL, Dominique", 
+              "order": 4, 
+              "file_hash": "76c399c426cf22662f260d00572ad8386e9aef69b44e556ba21a632873d4277f", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/76c399c426cf22662f260d00572ad8386e9aef69b44e556ba21a632873d4277f-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "MOREAU, Fran\u00e7oise"
+            }, 
+            {
+              "candidate": "S\u00c9JOURN\u00c9, Cl\u00e9ment", 
+              "order": 5, 
+              "file_hash": "82709d498b08377157f1057b30e9d06f9c60f7c7eedeb026bb9d6df39989aae8", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/82709d498b08377157f1057b30e9d06f9c60f7c7eedeb026bb9d6df39989aae8-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "GASC-HENCHOZ, B\u00e9r\u00e9nice"
+            }, 
+            {
+              "candidate": "PINVILLE, Martine", 
+              "order": 6, 
+              "file_hash": "e011f5db8ba0fd1fe5a3207b308f414fa6cb7014ca900ce24b9733c5ee90a5da", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/e011f5db8ba0fd1fe5a3207b308f414fa6cb7014ca900ce24b9733c5ee90a5da-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "COMET, David"
+            }, 
+            {
+              "candidate": "MESNIER, Thomas", 
+              "order": 7, 
+              "file_hash": "74b1bba06f57886617b052ef2f2503024498f9038f77ad6b0b655cb2e187ea78", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/74b1bba06f57886617b052ef2f2503024498f9038f77ad6b0b655cb2e187ea78-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "MALLET, Catherine"
+            }, 
+            {
+              "candidate": "BOUTIN, Martine", 
+              "order": 8, 
+              "file_hash": "bf910586fb6695c51ae003e585d41f81ca903e482d0b10c2b13d2301d32c15fa", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/bf910586fb6695c51ae003e585d41f81ca903e482d0b10c2b13d2301d32c15fa-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "GAUTIER, Daniel"
+            }, 
+            {
+              "candidate": "PETIT-GALLAND, Rodolphe", 
+              "order": 9, 
+              "file_hash": "7bbd75c5a7a48e545a5755a978bab883773047d4eec9aa18db7bd749d24f8386", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/7bbd75c5a7a48e545a5755a978bab883773047d4eec9aa18db7bd749d24f8386-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "HAEM, Ren\u00e9"
+            }, 
+            {
+              "candidate": "GALLET, Olivier", 
+              "order": 10, 
+              "file_hash": "b1e944d8666574a35d3ca0ecbccacc3d1af73e2d72aecb7df66a02728ffe8e49", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/b1e944d8666574a35d3ca0ecbccacc3d1af73e2d72aecb7df66a02728ffe8e49-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "LAURIA, Filippo"
+            }, 
+            {
+              "candidate": "BLANCHER MOUQUET, Aline", 
+              "order": 11, 
+              "file_hash": "1874000b013512e5d78f21ace00b149d9e0fc2abf6da8cc8555058d0a7101fa4", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 833, 
+              "propagande": "/data-pdf-propagandes/1874000b013512e5d78f21ace00b149d9e0fc2abf6da8cc8555058d0a7101fa4-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "GUINAUDIE, Cyril"
+            }, 
+            {
+              "candidate": "GOURR\u00c9, Geoffray", 
+              "order": 12, 
+              "file_hash": "04296a4c7d86cbd37203a5c93d2946df4a4956f6c34e86f257c620786312c810", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/04296a4c7d86cbd37203a5c93d2946df4a4956f6c34e86f257c620786312c810-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "MAGNIN, Claude"
+            }, 
+            {
+              "candidate": "VOUVET, Elise", 
+              "order": 13, 
+              "file_hash": "7aebcb8bb075d231ca1392910e0fa8c3cfdfe78bee9d4e37038ad4f38e390c30", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/7aebcb8bb075d231ca1392910e0fa8c3cfdfe78bee9d4e37038ad4f38e390c30-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "BONICHON, Andr\u00e9"
+            }, 
+            {
+              "candidate": "ACHARD, Odile", 
+              "order": 14, 
+              "file_hash": "e6394d823737dcd67f3a75cdda710f7af197256b658e793c6af03d44cd0a5037", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 1066, 
+              "propagande": "/data-pdf-propagandes/e6394d823737dcd67f3a75cdda710f7af197256b658e793c6af03d44cd0a5037-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "FONTANAUD, Patrick"
+            }, 
+            {
+              "candidate": "YOU, Vincent", 
+              "order": 15, 
+              "file_hash": "a6e604cb5acaa5f45f73786db3c9a53eebae60bd7ef89b3302bfb234ce1e5264", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/a6e604cb5acaa5f45f73786db3c9a53eebae60bd7ef89b3302bfb234ce1e5264-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "M\u00c9RIGLIER, Dani\u00e8le"
+            }
+          ], 
+          "id": "1", 
+          "name": "1\u00e8re circonscription"
+        }, 
+        "3": {
+          "candidates": [
+            {
+              "candidate": "MONROUSSEAU, Fran\u00e7ois", 
+              "order": 1, 
+              "file_hash": "9c3e128c4f28bbf8f64d00e0c2c3aa56c8964b02174b25285f18c7e767fc9114", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/9c3e128c4f28bbf8f64d00e0c2c3aa56c8964b02174b25285f18c7e767fc9114-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "PROTZENKO, Pascale"
+            }, 
+            {
+              "candidate": "GR\u00c9GORI-BACHELIER, V\u00e9ronique", 
+              "order": 2, 
+              "file_hash": "edb785030a4649d1008505ffb994f8ba6123db36c8dfbce7e17c8247cd5a324d", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/edb785030a4649d1008505ffb994f8ba6123db36c8dfbce7e17c8247cd5a324d-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "DUBON, Basile"
+            }, 
+            {
+              "candidate": "FOUR\u00c9, Brigitte", 
+              "order": 3, 
+              "file_hash": "d2c09e13ec86572f608699b1d1e741cc7d951a24c613e42a7b38e9cea4da610f", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/d2c09e13ec86572f608699b1d1e741cc7d951a24c613e42a7b38e9cea4da610f-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "MARTINEAU, Jacky"
+            }, 
+            {
+              "candidate": "DJAAFARI, Sophie", 
+              "order": 4, 
+              "file_hash": "18b1b9ec50858633e0ee58c1b23d9f214c9c7f880f44ad6d9259065736ac17c5", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 1373, 
+              "propagande": "/data-pdf-propagandes/18b1b9ec50858633e0ee58c1b23d9f214c9c7f880f44ad6d9259065736ac17c5-profession-de-foi.pdf", 
+              "propagandeAccessible": true, 
+              "substitute": "DAFQIR, Mohamed"
+            }, 
+            {
+              "candidate": "NGOMBET BITOO, Madeleine", 
+              "order": 5, 
+              "file_hash": "84c224ed7d63696fa3b0e93002839283e975bba0e62d6a3f52050dd618726d3c", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/84c224ed7d63696fa3b0e93002839283e975bba0e62d6a3f52050dd618726d3c-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "VISEUR, St\u00e9phane"
+            }, 
+            {
+              "candidate": "FIZE, Francoise", 
+              "order": 6, 
+              "file_hash": "e1cc3c88c07f5e63e0370bf28ef0ef0a5b567c8c2c1a3ee6d791a1bcefae072d", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 833, 
+              "propagande": "/data-pdf-propagandes/e1cc3c88c07f5e63e0370bf28ef0ef0a5b567c8c2c1a3ee6d791a1bcefae072d-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "BEIRNAERT, Marc"
+            }, 
+            {
+              "candidate": "MAUVILLAIN, Christophe", 
+              "order": 7, 
+              "file_hash": "a34c347f95877de06bd39e4584a05806d03d8f9e9c113f7ce6f477e54bfbe717", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/a34c347f95877de06bd39e4584a05806d03d8f9e9c113f7ce6f477e54bfbe717-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "LAVERGNE, V\u00e9ronique"
+            }, 
+            {
+              "candidate": "DE AZEVEDO, Aur\u00e9lie", 
+              "order": 8, 
+              "file_hash": "d6dd8715dbf32c5d6a09d40e615a542322c095884dee853bad78b775df1fa3f6", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/d6dd8715dbf32c5d6a09d40e615a542322c095884dee853bad78b775df1fa3f6-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "DESMIER, Yseult"
+            }, 
+            {
+              "candidate": "BRAGG, Annie", 
+              "order": 9, 
+              "file_hash": "5e9653b5ed2adbf18fcd1636fb98c65cb5e9776b310322e08189e13b1f1331df", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/5e9653b5ed2adbf18fcd1636fb98c65cb5e9776b310322e08189e13b1f1331df-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "JOIN, Chantal"
+            }, 
+            {
+              "candidate": "LAMBERT, J\u00e9r\u00f4me", 
+              "order": 10, 
+              "file_hash": "ad81f8c13e40ad7d4af4bb8125031f72285b08a3310ab2c75c771a56e02b779e", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/ad81f8c13e40ad7d4af4bb8125031f72285b08a3310ab2c75c771a56e02b779e-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "BUISSON, Michel"
+            }, 
+            {
+              "candidate": "MAINGUY, Anne", 
+              "order": 11, 
+              "file_hash": "da72c2c84b9c5795c078ef2f2f959e952528a861d3236db115a0b03cd847432c", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 204, 
+              "propagande": "/data-pdf-propagandes/da72c2c84b9c5795c078ef2f2f959e952528a861d3236db115a0b03cd847432c-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "DEFOSSEZ, Fr\u00e9d\u00e9ric"
+            }, 
+            {
+              "candidate": "SICRE, Anabelle", 
+              "order": 12, 
+              "file_hash": "7f99a6be443d66227972daae384faa27bd56557bc8ced78302ae3e267cf7eb77", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 161, 
+              "propagande": "/data-pdf-propagandes/7f99a6be443d66227972daae384faa27bd56557bc8ced78302ae3e267cf7eb77-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "RIVET, Marie-Am\u00e9lie"
+            }
+          ], 
+          "id": "3", 
+          "name": "3\u00e8me circonscription"
+        }, 
+        "2": {
+          "candidates": [
+            {
+              "candidate": "BRISSET, Pascaline", 
+              "order": 1, 
+              "file_hash": "2c961bb5ba2b258ec5dd44d8e04f42fdd277c0916c576bbe6f82c3bb7f952d1b", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 1098, 
+              "propagande": "/data-pdf-propagandes/2c961bb5ba2b258ec5dd44d8e04f42fdd277c0916c576bbe6f82c3bb7f952d1b-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "NORDLINGER, Richard"
+            }, 
+            {
+              "candidate": "TAUZIN, Didier", 
+              "order": 2, 
+              "file_hash": "dad7c8e07f57c2a657fbf9d1d878773f0d25f308cebae48d58b4917c828b1687", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/dad7c8e07f57c2a657fbf9d1d878773f0d25f308cebae48d58b4917c828b1687-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "QUESSON, Titouan"
+            }, 
+            {
+              "candidate": "MARQUET, Alain", 
+              "order": 3, 
+              "file_hash": "5f9030a11dedc5ec7423ed5fa501ecc4ceedfe9767017dad86c74c668d9163cd", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 199, 
+              "propagande": "/data-pdf-propagandes/5f9030a11dedc5ec7423ed5fa501ecc4ceedfe9767017dad86c74c668d9163cd-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "CURGALI, Patrick"
+            }, 
+            {
+              "candidate": "LACOURARIE, Pascale", 
+              "order": 4, 
+              "file_hash": "b81a120409b8005f44e8017126ead2dc399417f60a2187338f5b5c667da5590d", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 1013, 
+              "propagande": "/data-pdf-propagandes/b81a120409b8005f44e8017126ead2dc399417f60a2187338f5b5c667da5590d-profession-de-foi.pdf", 
+              "propagandeAccessible": true, 
+              "substitute": "NICOLAS, Jacques"
+            }, 
+            {
+              "candidate": "REYNAUD-JEANDIDIER, Marianne", 
+              "order": 5, 
+              "file_hash": "ea6aef6b7ebeab41f5beed3fa1285074c405039f6cf41e9348b28640f76b5d9e", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/ea6aef6b7ebeab41f5beed3fa1285074c405039f6cf41e9348b28640f76b5d9e-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "TUTARD, Christophe"
+            }, 
+            {
+              "candidate": "PONCY, Claudine", 
+              "order": 6, 
+              "file_hash": "94c0914a308f495633210f2a65d50e1ff941f0f5c621ffa90ba1956315117d3b", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/94c0914a308f495633210f2a65d50e1ff941f0f5c621ffa90ba1956315117d3b-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "JOUBERT, Michel"
+            }, 
+            {
+              "candidate": "SAUVAITRE, Daniel", 
+              "order": 7, 
+              "file_hash": "481ebac82e866974f8fc9717648e192a4ebe8f3f1be993525d02684d68b546b5", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/481ebac82e866974f8fc9717648e192a4ebe8f3f1be993525d02684d68b546b5-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "LELIEVRE, Jean-Hubert"
+            }, 
+            {
+              "candidate": "TOURNERIE, Catherine", 
+              "order": 8, 
+              "file_hash": "b5ba220802b9f776a19c02ddd8f5db802f406c2414e85ba2c51b6259e3067ce1", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 833, 
+              "propagande": "/data-pdf-propagandes/b5ba220802b9f776a19c02ddd8f5db802f406c2414e85ba2c51b6259e3067ce1-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "GRAIL, Jean"
+            }, 
+            {
+              "candidate": "ANGUENOT, Virginie", 
+              "order": 9, 
+              "file_hash": "e7048e9e28943e7d7440550bda2b4e26d124078d1d87f72a45bbed7d63867994", 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 1373, 
+              "propagande": "/data-pdf-propagandes/e7048e9e28943e7d7440550bda2b4e26d124078d1d87f72a45bbed7d63867994-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "DESPIN, Olivier"
+            }, 
+            {
+              "candidate": "LASSALLE, Isabelle", 
+              "order": 10, 
+              "file_hash": "9c8e86b9a896be35e2665969014dd64119ca1806d62e9af69e2d377b7fbca4c1", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/9c8e86b9a896be35e2665969014dd64119ca1806d62e9af69e2d377b7fbca4c1-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "BODET, Dominique"
+            }, 
+            {
+              "candidate": "MARSAUD, Sandra", 
+              "order": 11, 
+              "file_hash": "11682040316a4e851d1e6bb554e72d52cfb2472cff7293cc6aa4c8b1832bbdad", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/11682040316a4e851d1e6bb554e72d52cfb2472cff7293cc6aa4c8b1832bbdad-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "BARON, Delphine"
+            }, 
+            {
+              "candidate": "JABLI, Nathalie", 
+              "order": 12, 
+              "file_hash": "2bdd9c880b897fe857fba7ed27ae9341ffdcdea26860238c6c560d265f09f3a8", 
+              "isPropagandeDummy": true, 
+              "propagandeSize": 149, 
+              "propagande": "/data-pdf-propagandes/2bdd9c880b897fe857fba7ed27ae9341ffdcdea26860238c6c560d265f09f3a8-profession-de-foi.pdf", 
+              "propagandeAccessible": false, 
+              "substitute": "FEYBESSE, Gr\u00e9goire"
+            }
+          ], 
+          "id": "2", 
+          "name": "2\u00e8me circonscription"
+        }
+      }, 
+      "id": "16", 
+      "name": "Charente"
+    }, 
     "19": {
       "circumscriptions": {
         "1": {
