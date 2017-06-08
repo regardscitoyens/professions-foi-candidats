@@ -74881,10 +74881,10 @@
               "candidate": "LAENG, Isabelle Dite Cindy'Lee", 
               "order": 5, 
               "file_hash": "158694275f8710a26e6e674e065170efa75fc4ca09eafac58e9d57c8881d31db", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 378, 
               "propagande": "/data-pdf-propagandes/158694275f8710a26e6e674e065170efa75fc4ca09eafac58e9d57c8881d31db-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "CASSOU, Jean-Pierre"
             }, 
             {
@@ -74961,10 +74961,10 @@
               "candidate": "RUPIN, Pac\u00f4me", 
               "order": 13, 
               "file_hash": "63fe051776e072708d7f62c82a29669e7a74018592143a998c4b37d34da7a2e8", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 858, 
               "propagande": "/data-pdf-propagandes/63fe051776e072708d7f62c82a29669e7a74018592143a998c4b37d34da7a2e8-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "MENDZA, Marianna"
             }, 
             {
