@@ -9143,8 +9143,8 @@
               "candidate": "LECOCQ, Charlotte", 
               "order": 11, 
               "file_hash": "2c2a3f71ba6f364a7bbe1fb16ac822b97319e9651ed1d7c1fdac20ed8c1288cf", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 581, 
               "propagande": "/data-pdf-propagandes/2c2a3f71ba6f364a7bbe1fb16ac822b97319e9651ed1d7c1fdac20ed8c1288cf-profession-de-foi.pdf", 
               "propagandeAccessible": false, 
               "substitute": "BLARINGHEM, Nicolas"
@@ -26157,10 +26157,10 @@
               "candidate": "LEMORTON, Catherine", 
               "order": 8, 
               "file_hash": "5d871a34dd3b97a32cee5a6ccb45cd17df22923bf73c8a2690d2e83d46d841d2", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 988, 
               "propagande": "/data-pdf-propagandes/5d871a34dd3b97a32cee5a6ccb45cd17df22923bf73c8a2690d2e83d46d841d2-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "FABRE, Jean-Michel"
             }, 
             {
@@ -26419,8 +26419,8 @@
               "candidate": "GENNARO-SAINT, Christine", 
               "order": 6, 
               "file_hash": "e962e3b0ec031c28b2ce4ba08d04c2bbe55a1372e22368b3597adac129b27a90", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 291, 
               "propagande": "/data-pdf-propagandes/e962e3b0ec031c28b2ce4ba08d04c2bbe55a1372e22368b3597adac129b27a90-profession-de-foi.pdf", 
               "propagandeAccessible": false, 
               "substitute": "LESGOURGUES, Laurent"
@@ -27295,8 +27295,8 @@
               "candidate": "GONZALEZ, Laure", 
               "order": 5, 
               "file_hash": "fb6744e524214fd8025243e60946aef428c539d9ed2f0973ce36524f7a97068d", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 500, 
               "propagande": "/data-pdf-propagandes/fb6744e524214fd8025243e60946aef428c539d9ed2f0973ce36524f7a97068d-profession-de-foi.pdf", 
               "propagandeAccessible": false, 
               "substitute": "LEBRUN, Florian"
@@ -72030,7 +72030,7 @@
               "isPropagandeDummy": true, 
               "propagandeSize": 149, 
               "propagande": "/data-pdf-propagandes/9b3c4c07584fc1a6ed0ac371d0e9802bdadaed86e5d9eba2dc5ffd9351b1e8be-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "BERTRAND, Agn\u00e8s"
             }, 
             {
@@ -72608,7 +72608,7 @@
               "isPropagandeDummy": true, 
               "propagandeSize": 149, 
               "propagande": "/data-pdf-propagandes/9171f2ef863c369cbd13131238649b577d2d307d5bae0640b2495b3128f39299-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "LEBRETON, Pierre"
             }, 
             {
@@ -74356,7 +74356,7 @@
               "isPropagandeDummy": true, 
               "propagandeSize": 149, 
               "propagande": "/data-pdf-propagandes/ed2956bb7d2ae693cecc9ab8734961c2e749fe7dd7e53623b64ff657d9c60f5f-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "COSTAMAGNA, Laurent"
             }, 
             {
@@ -75602,7 +75602,7 @@
               "isPropagandeDummy": true, 
               "propagandeSize": 149, 
               "propagande": "/data-pdf-propagandes/e95f6a0fa008e985f80559f8f0c2f1f4688ba63b60765b8115c13f3714ee4d5d-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "MILLIERE, Dimitri"
             }, 
             {
@@ -75751,8 +75751,8 @@
               "candidate": "ENCRENAZ, Fran\u00e7ois", 
               "order": 2, 
               "file_hash": "5f9957dbbc05904e201cd00b1654408c49c54b1d9657f03a5b504185f9fe78fc", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 3250, 
               "propagande": "/data-pdf-propagandes/5f9957dbbc05904e201cd00b1654408c49c54b1d9657f03a5b504185f9fe78fc-profession-de-foi.pdf", 
               "propagandeAccessible": false, 
               "substitute": "GALLERANI, Bruno"
@@ -75841,8 +75841,8 @@
               "candidate": "RIOTTON, V\u00e9ronique", 
               "order": 11, 
               "file_hash": "067e1fe156448a982b65ee136d2b74104a7e233842d58f5c335a9e67fec0a606", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 323, 
               "propagande": "/data-pdf-propagandes/067e1fe156448a982b65ee136d2b74104a7e233842d58f5c335a9e67fec0a606-profession-de-foi.pdf", 
               "propagandeAccessible": false, 
               "substitute": "LOMBARD, Roland"
@@ -76173,10 +76173,10 @@
               "candidate": "BURGUIERE, Yann", 
               "order": 15, 
               "file_hash": "0d3c5db42d176cee3590dcfdad82ff786456ca5bb096219f891d6979173bdcbf", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 687, 
               "propagande": "/data-pdf-propagandes/0d3c5db42d176cee3590dcfdad82ff786456ca5bb096219f891d6979173bdcbf-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "ROMAGGI, Magali"
             }, 
             {
@@ -76229,10 +76229,10 @@
               "candidate": "BAUD-ROCHE, Astrid", 
               "order": 1, 
               "file_hash": "8cac39c09985ed0d58f61873a3dcee8e1ef32dc0968a6e7316ca80d63a8d8fb2", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 377, 
               "propagande": "/data-pdf-propagandes/8cac39c09985ed0d58f61873a3dcee8e1ef32dc0968a6e7316ca80d63a8d8fb2-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "RUBIN, Nicolas"
             }, 
             {
@@ -79821,8 +79821,8 @@
               "candidate": "PIRON, B\u00e9atrice", 
               "order": 8, 
               "file_hash": "51c9ecd82f0788b8dcd40bba64277ed0ba589bb1a2a035d3c779e8ada65e75ea", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 86, 
               "propagande": "/data-pdf-propagandes/51c9ecd82f0788b8dcd40bba64277ed0ba589bb1a2a035d3c779e8ada65e75ea-profession-de-foi.pdf", 
               "propagandeAccessible": false, 
               "substitute": "CEVASCO, Christophe"
