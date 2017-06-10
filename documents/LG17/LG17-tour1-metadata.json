@@ -60813,8 +60813,8 @@
               "candidate": "BELLEPERCHE, Eric", 
               "order": 15, 
               "file_hash": "85319a215221e05d3532b6c42d4006e0d1197a152bf5e75b725851983422628e", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 547, 
               "propagande": "/data-pdf-propagandes/85319a215221e05d3532b6c42d4006e0d1197a152bf5e75b725851983422628e-profession-de-foi.pdf", 
               "propagandeAccessible": false, 
               "substitute": "DE CHAMPS, Marie"
