@@ -42127,10 +42127,10 @@
               "candidate": "BAREIGTS, Ericka", 
               "order": 8, 
               "file_hash": "ec18aebcb003005fed1e2eb60df1583dc3aa6c6ed3a0f015af91b7e264af98f1", 
-              "isPropagandeDummy": true, 
-              "propagandeSize": 149, 
+              "isPropagandeDummy": false, 
+              "propagandeSize": 1651, 
               "propagande": "/data-pdf-propagandes/ec18aebcb003005fed1e2eb60df1583dc3aa6c6ed3a0f015af91b7e264af98f1-profession-de-foi.pdf", 
-              "propagandeAccessible": false, 
+              "propagandeAccessible": true, 
               "substitute": "NAILLET, Philippe"
             }, 
             {
