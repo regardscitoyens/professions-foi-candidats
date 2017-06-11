@@ -49,13 +49,13 @@ def collect_regionales(elcode="RG15"):
                 if not liste['isPropagandeDummy']:
                     downloadPDF(eldir, codeId + 'profession_foi', HOSTURL + liste['propagande'])
 
-def request_data(url, field, retries=3):
+def request_data(url, field, retries=10):
     jsonurl = "%s.json" % url
     try:
         return requests.get(jsonurl).json()[field]
     except Exception as e:
         if retries:
-            time.sleep(2)
+            time.sleep(30/retries)
             return request_data(url, field, retries - 1)
         print >> sys.stderr, "ERROR: impossible to get %s list at" % field, jsonurl
         print >> sys.stderr, "%s:" % type(e), e
