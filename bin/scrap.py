@@ -6,8 +6,8 @@ import re, time
 import csv, json
 import requests
 
-HOSTURL = 'http://programme-candidats.interieur.gouv.fr'
-DATAURL = HOSTURL + '/data-jsons/'
+HOSTURL = 'https://programme-candidats.interieur.gouv.fr/'
+DATAURL = HOSTURL + 'data-jsons/'
 
 def downloadPDF(eldir, filename, url, retries=3):
     filepath = os.path.join(eldir, "%s.pdf" % filename)
@@ -49,19 +49,22 @@ def collect_regionales(elcode="RG15"):
                 if not liste['isPropagandeDummy']:
                     downloadPDF(eldir, codeId + 'profession_foi', HOSTURL + liste['propagande'])
 
-def request_data(url, field, retries=10):
+def request_data(url, field, fallback_field=None, retries=10):
     jsonurl = "%s.json" % url
     try:
-        return requests.get(jsonurl).json()[field]
+        jsondata = requests.get(jsonurl).json()
+        if field in jsondata:
+            return jsondata[field]
+        return jsondata[fallback_field]
     except Exception as e:
         if retries:
             time.sleep(30/retries)
-            return request_data(url, field, retries - 1)
+            return request_data(url, field, fallback_field=fallback_field, retries = retries - 1)
         print >> sys.stderr, "ERROR: impossible to get %s list at" % field, jsonurl
         print >> sys.stderr, "%s:" % type(e), e
         sys.exit(1)
 
-re_election = re.compile(ur" 20(\d+)\s*-\s*(\d).*tour$")
+re_election = re.compile(ur" 20(\d+)(?:\s*-\s*(\d).*tour)?$")
 def list_elections():
     elections = []
     for el in request_data(DATAURL + "elections", "elections"):
@@ -76,8 +79,10 @@ def list_elections():
             typ = "LG"
         elif u"sénatoriale" in eln:
             typ = "SN"
-        elif u"européenne" in eln:
+        elif u"européen" in eln:
             typ = "ER"
+            el["granu"] = "candidacies"
+            el["granu2"] = "lists"
         elif u"régionale" in eln:
             typ = "RG"
             el["granu"] = "regions"
@@ -86,7 +91,7 @@ def list_elections():
             typ = "DP"
         elif u"municipale" in eln:
             typ = "MN"
-            el["granu2"] = "comunes"
+            el["granu2"] = "communes"
         else:
             print >> sys.stderr, "WARNING: cannot identify type of election", el
             sys.exit(1)
@@ -109,31 +114,42 @@ def scrape_election(el):
     nb_d = 0
     nb_n = 0
     el[el["granu"]] = {}
+    tour = "-tour%s" % el["tour"] if el["tour"] else ""
     url = DATAURL + "elections-%s-%s" % (el["id"], el["granu"])
-    for grain in request_data(url, el["granu"]):
+    for grain in request_data(url, el["granu"], el["granu2"]):
         nb_g += 1
-        graindir = os.path.join(eldir, grain["id"])
-        if not os.path.exists(graindir):
-            os.makedirs(graindir)
-        grain[el["granu2"]] = {}
-        el[el["granu"]][grain["id"]] = grain
-        url1 = url + "-%s-%s" % (grain["id"], el["granu2"])
-        for grain2 in request_data(url1, el["granu2"]):
-            nb_g2 += 1
-            url2 = url1 + "-%s-candidates" % grain2["id"]
-            grain2["candidates"] = request_data(url2, "candidates")
-            el[el["granu"]][grain["id"]][el["granu2"]][grain2["id"]] = grain2
-            for candidate in grain2["candidates"]:
-                nb_c += 1
-                name = candidate["candidate"].split(',')[0].replace(' ', '_')
-                codeId = '%s-%s-%s-%s-%s-tour%s-' % (el["code"], grain["id"], grain2["id"], name, candidate["order"], el["tour"])
-                if not candidate['isPropagandeDummy']:
-                    nb_d += 1
-                    nb_n += downloadPDF(graindir, codeId + 'profession_foi', HOSTURL + candidate['propagande'])
-                if "isBulletinDummy" in candidate and not candidate['isBulletinDummy']:
-                    nb_n += downloadPDF(graindir, codeId + 'bulletin_vote', HOSTURL + candidate['bulletinDeVote'])
+        if "propagande" in grain:
+            nb_c += 1
+            name = re.sub(r'[^A-ZÀÂÉÊÈÎÏÔÙÛÇ]+', '_', grain['name'])
+            codeId = '%s-%s-%s-' % (el["code"], name, grain["order"])
+            if not int(grain['isPropagandeDummy']):
+                nb_d += 1
+                nb_n += downloadPDF(eldir, codeId + 'profession_foi', HOSTURL + grain['propagande'])
+            if not int(grain['isFalcDummy']):
+                nb_n += downloadPDF(eldir, codeId + 'profession_foi_accessible', HOSTURL + grain['accessible_propagande'])
+        else:
+            graindir = os.path.join(eldir, grain["id"])
+            if not os.path.exists(graindir):
+                os.makedirs(graindir)
+            grain[el["granu2"]] = {}
+            el[el["granu"]][grain["id"]] = grain
+            url1 = url + "-%s-%s" % (grain["id"], el["granu2"])
+            for grain2 in request_data(url1, el["granu2"]):
+                nb_g2 += 1
+                url2 = url1 + "-%s-candidates" % grain2["id"]
+                grain2["candidates"] = request_data(url2, "candidates")
+                el[el["granu"]][grain["id"]][el["granu2"]][grain2["id"]] = grain2
+                for candidate in grain2["candidates"]:
+                    nb_c += 1
+                    name = candidate["candidate"].split(',')[0].replace(' ', '_')
+                    codeId = '%s-%s-%s-%s-%s%s-' % (el["code"], grain["id"], grain2["id"], name, candidate["order"], tour)
+                    if not int(candidate['isPropagandeDummy']):
+                        nb_d += 1
+                        nb_n += downloadPDF(graindir, codeId + 'profession_foi', HOSTURL + candidate['propagande'])
+                    if "isBulletinDummy" in candidate and not int(candidate['isBulletinDummy']):
+                        nb_n += downloadPDF(graindir, codeId + 'bulletin_vote', HOSTURL + candidate['bulletinDeVote'])
 
-    with open(os.path.join(eldir, "%s-tour%s-metadata.json" % (el["code"], el["tour"])), "w") as f:
+    with open(os.path.join(eldir, "%s%s-metadata.json" % (el["code"], tour)), "w") as f:
         json.dump(el, f, indent=2)
     if nb_n:
         print "%s: %s new documents collected (%s total candidates are published out of %s listed in %s %s and %s %s)." % (el["name"].encode("utf-8"), nb_n, nb_d, nb_c, nb_g, el["granu"], nb_g2, el["granu2"])
