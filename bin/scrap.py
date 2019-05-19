@@ -119,6 +119,9 @@ def scrape_election(el):
     for grain in request_data(url, el["granu"], el["granu2"]):
         nb_g += 1
         if "propagande" in grain:
+            if "listes" not in el:
+                el["listes"] = []
+            el["listes"].append(grain)
             nb_c += 1
             name = re.sub(r'[^A-ZÀÂÉÊÈÎÏÔÙÛÇ]+', '_', grain['name'])
             codeId = '%s-%s-%s-' % (el["code"], name, grain["order"])
