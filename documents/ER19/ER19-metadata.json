@@ -2,10 +2,10 @@
   "startDate": "2019-05-26", 
   "listes": [
     {
-      "propagandeFalcSize": "82 ko", 
+      "propagandeFalcSize": "1.69 Mo", 
       "name": "LA FRANCE INSOUMISE", 
       "accessible_propagande": "data-pdf-propagandes/bc47eb397585a5f3ac4e550b4b3a91930bd520de5c09ab3475c36df148f90792-profession-de-foi-accessible.pdf", 
-      "propagandeAccessible": "1", 
+      "propagandeAccessible": "0", 
       "propagande_thumbnail": "data-pdf-propagandes/bc47eb397585a5f3ac4e550b4b3a91930bd520de5c09ab3475c36df148f90792-profession-de-foi.pdf.png", 
       "firstCandidateSex": "F", 
       "order": "1", 
@@ -14,7 +14,7 @@
       "propagandeSize": "735 ko", 
       "propagandeFalcAccessible": "0", 
       "propagande": "data-pdf-propagandes/bc47eb397585a5f3ac4e550b4b3a91930bd520de5c09ab3475c36df148f90792-profession-de-foi.pdf", 
-      "isFalcDummy": "1", 
+      "isFalcDummy": "0", 
       "id": "51"
     }, 
     {
@@ -178,19 +178,19 @@
       "id": "61"
     }, 
     {
-      "propagandeFalcSize": "82 ko", 
+      "propagandeFalcSize": "1.78 Mo", 
       "name": "ENVIE D'EUROPE \u00c9COLOGIQUE ET SOCIALE", 
       "accessible_propagande": "data-pdf-propagandes/01a0512ea02eb650f3374545274a14dbd088805d738b4a6385d1c7626eeeaf32-profession-de-foi-accessible.pdf", 
-      "propagandeAccessible": "1", 
+      "propagandeAccessible": "0", 
       "propagande_thumbnail": "data-pdf-propagandes/01a0512ea02eb650f3374545274a14dbd088805d738b4a6385d1c7626eeeaf32-profession-de-foi.pdf.png", 
       "firstCandidateSex": "M", 
       "order": "12", 
       "file_hash": "01a0512ea02eb650f3374545274a14dbd088805d738b4a6385d1c7626eeeaf32", 
       "isPropagandeDummy": "0", 
       "propagandeSize": "344 ko", 
-      "propagandeFalcAccessible": "0", 
+      "propagandeFalcAccessible": "1", 
       "propagande": "data-pdf-propagandes/01a0512ea02eb650f3374545274a14dbd088805d738b4a6385d1c7626eeeaf32-profession-de-foi.pdf", 
-      "isFalcDummy": "1", 
+      "isFalcDummy": "0", 
       "id": "62"
     }, 
     {
