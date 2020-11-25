@@ -205,7 +205,7 @@ def scrape_municipales(elcode="MN20"):
                     nb_d += 1
                     nb_n += downloadPDF(comdir, codeId + 'profession_foi', PDFSURL + "%s.pdf" % candidat['pdf'])
 
-    with open(os.path.join(eldir, "%s%s-metadata.json" % (elcode, "2")), "w") as f:
+    with open(os.path.join(eldir, "%s-tour%s-metadata.json" % (elcode, "2")), "w") as f:
         json.dump(data, f, indent=2)
     if nb_n:
         print "%s: %s new documents collected (%s total candidates are published out of %s listed in %s departments and %s communes)." % (elcode, nb_n, nb_d, nb_c, nb_dep, nb_com)
