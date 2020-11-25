@@ -1,0 +1,605 @@
+{
+  "974": {
+    "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_circonscriptions_dpt_974", 
+    "circonscriptions": {
+      "974-02": {
+        "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_candidats_circonscription_974-02", 
+        "candidats": [
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "R\u00e9my MASSAIN", 
+            "numPanneau": "1", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Ana\u00eblle HOAREAU", 
+            "pdf": "1_974-02-1", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Jacques Elie DIJOUX", 
+            "numPanneau": "2", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Corine Genevi\u00e8ve DEURVEILHER", 
+            "pdf": "1_974-02-2", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Karine LEBON", 
+            "numPanneau": "3", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Fayzal AHMED-VALI", 
+            "pdf": "1_974-02-3", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Michelle LARTIN-GRAJA", 
+            "numPanneau": "4", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Andr\u00e9 FOUREL", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Audrey FONTAINE", 
+            "numPanneau": "5", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Sergio ERAPA", 
+            "pdf": "1_974-02-5", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Jean Philippe DESBY", 
+            "numPanneau": "6", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Anthony DOBI", 
+            "pdf": "1_974-02-6", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Laurence LOUGNON", 
+            "numPanneau": "7", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Jean Brice HERODE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Davilla VERDUN", 
+            "numPanneau": "8", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Didier TIVERNE", 
+            "pdf": "1_974-02-8", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Alain BENARD", 
+            "numPanneau": "9", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Lucie PAULA-BAWEDIN", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Hary GRONDIN", 
+            "numPanneau": "10", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Marie-Claudine FERON", 
+            "pdf": "1_974-02-10", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Patrick SERVEAUX", 
+            "numPanneau": "11", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Aline MURIN-HOARAU", 
+            "pdf": "1_974-02-11", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Jean Fran\u00e7ois NATIVEL", 
+            "numPanneau": "12", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "V\u00e9ronique FERRIER", 
+            "pdf": "1_974-02-12", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Philippe ROBERT", 
+            "numPanneau": "13", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Coralie MARCELINA-LATOUZE", 
+            "pdf": "1_974-02-13", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "974-02", 
+            "candidat": "Charles MOYAC", 
+            "numPanneau": "14", 
+            "circonscription": "2\u00e8me circonscription", 
+            "suppleant": "Genevi\u00e8ve PAYET", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }
+        ], 
+        "name": "2\u00e8me circonscription"
+      }
+    }, 
+    "name": "La R\u00e9union"
+  }, 
+  "49": {
+    "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_circonscriptions_dpt_49", 
+    "circonscriptions": {
+      "49-03": {
+        "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_candidats_circonscription_49-03", 
+        "candidats": [
+          {
+            "codeCirconscription": "49-03", 
+            "candidat": "Patricia PEILLON", 
+            "numPanneau": "1", 
+            "circonscription": "3\u00e8me circonscription", 
+            "suppleant": "Bernard MOUGEY", 
+            "pdf": "1_49-03-1", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "49-03", 
+            "candidat": "Patrice LANCIEN", 
+            "numPanneau": "2", 
+            "circonscription": "3\u00e8me circonscription", 
+            "suppleant": "Ghislaine HUPONT", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "49-03", 
+            "candidat": "Guy BERTIN", 
+            "numPanneau": "3", 
+            "circonscription": "3\u00e8me circonscription", 
+            "suppleant": "R\u00e9gine BRICHET", 
+            "pdf": "1_49-03-3", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "49-03", 
+            "candidat": "Adrien DENIS", 
+            "numPanneau": "4", 
+            "circonscription": "3\u00e8me circonscription", 
+            "suppleant": "Marie-Pierre MARTIN", 
+            "pdf": "1_49-03-4", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "49-03", 
+            "candidat": "Anne-Laure BLIN", 
+            "numPanneau": "5", 
+            "circonscription": "3\u00e8me circonscription", 
+            "suppleant": "Jean-Charles TAUGOURDEAU", 
+            "pdf": "1_49-03-5", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "49-03", 
+            "candidat": "Daphn\u00e9e RAVENEAU", 
+            "numPanneau": "6", 
+            "circonscription": "3\u00e8me circonscription", 
+            "suppleant": "Ludovic LANTRAIN", 
+            "pdf": "1_49-03-6", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "49-03", 
+            "candidat": "Jean-Eudes GANNAT", 
+            "numPanneau": "7", 
+            "circonscription": "3\u00e8me circonscription", 
+            "suppleant": "Didier SIMONS", 
+            "pdf": "1_49-03-7", 
+            "pdf_acc": "0"
+          }
+        ], 
+        "name": "3\u00e8me circonscription"
+      }
+    }, 
+    "name": "Maine-et-Loire"
+  }, 
+  "76": {
+    "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_circonscriptions_dpt_76", 
+    "circonscriptions": {
+      "76-05": {
+        "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_candidats_circonscription_76-05", 
+        "candidats": [
+          {
+            "codeCirconscription": "76-05", 
+            "candidat": "G\u00e9rard LESEUL", 
+            "numPanneau": "1", 
+            "circonscription": "5\u00e8me circonscription", 
+            "suppleant": "Martine BLONDEL", 
+            "pdf": "1_76-05-1", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "76-05", 
+            "candidat": "Jean-Christophe LOUTRE", 
+            "numPanneau": "2", 
+            "circonscription": "5\u00e8me circonscription", 
+            "suppleant": "Am\u00e9lie MARQUER", 
+            "pdf": "1_76-05-2", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "76-05", 
+            "candidat": "Auban AL JIBOURY", 
+            "numPanneau": "3", 
+            "circonscription": "5\u00e8me circonscription", 
+            "suppleant": "Enora CHOPARD", 
+            "pdf": "1_76-05-3", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "76-05", 
+            "candidat": "Maxime DA SILVA", 
+            "numPanneau": "4", 
+            "circonscription": "5\u00e8me circonscription", 
+            "suppleant": "Marie-Odile LECOURTOIS", 
+            "pdf": "1_76-05-4", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "76-05", 
+            "candidat": "Val\u00e9rie FOISSEY", 
+            "numPanneau": "5", 
+            "circonscription": "5\u00e8me circonscription", 
+            "suppleant": "Fr\u00e9d\u00e9ric PODGUSZER", 
+            "pdf": "1_76-05-5", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "76-05", 
+            "candidat": "Jean-Cyril MONTIER", 
+            "numPanneau": "6", 
+            "circonscription": "5\u00e8me circonscription", 
+            "suppleant": "Ana\u00efs THOMAS", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "76-05", 
+            "candidat": "Patricia LHOIR", 
+            "numPanneau": "7", 
+            "circonscription": "5\u00e8me circonscription", 
+            "suppleant": "Paul BONMARTEL", 
+            "pdf": "1_76-05-7", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "76-05", 
+            "candidat": "Michel ALLAIS", 
+            "numPanneau": "8", 
+            "circonscription": "5\u00e8me circonscription", 
+            "suppleant": "Corinne BUQUET", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }
+        ], 
+        "name": "5\u00e8me circonscription"
+      }
+    }, 
+    "name": "Seine-Maritime"
+  }, 
+  "68": {
+    "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_circonscriptions_dpt_68", 
+    "circonscriptions": {
+      "68-01": {
+        "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_candidats_circonscription_68-01", 
+        "candidats": [
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Pascal TSCHAEN", 
+            "numPanneau": "1", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "Marie-France DUVAL", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Jean-Fr\u00e9d\u00e9ric BAECHLER", 
+            "numPanneau": "2", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "Mireille KARLEN DEBEVE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Yves HEMEDINGER", 
+            "numPanneau": "3", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "Christelle LEHRY", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Christian ZIMMERMANN", 
+            "numPanneau": "4", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "Marie-H\u00e9l\u00e8ne DE LACOSTE LAREYMONDIE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Gilles SCHAFFAR", 
+            "numPanneau": "5", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "H\u00fcseyin KARADUMAN", 
+            "pdf": "1_68-01-5", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Thomas FRITZ", 
+            "numPanneau": "6", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "Yeliz ENCER", 
+            "pdf": "1_68-01-6", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Andr\u00e9 KORNMANN", 
+            "numPanneau": "7", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "Antoine CUISINIER", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Michel CLOG", 
+            "numPanneau": "8", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "Marie-Th\u00e9r\u00e8se WEISS", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "68-01", 
+            "candidat": "Fr\u00e9d\u00e9ric HILBERT", 
+            "numPanneau": "9", 
+            "circonscription": "1\u00e8re circonscription", 
+            "suppleant": "Jill K\u00d6PPE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }
+        ], 
+        "name": "1\u00e8re circonscription"
+      }
+    }, 
+    "name": "Haut-Rhin"
+  }, 
+  "94": {
+    "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_circonscriptions_dpt_94", 
+    "circonscriptions": {
+      "94-09": {
+        "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_candidats_circonscription_94-09", 
+        "candidats": [
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Mich\u00e8le BONHOMME AFFLATET", 
+            "numPanneau": "1", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "El\u00e9onore DECLERCQ", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Abdallah BENBETKA", 
+            "numPanneau": "2", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "Rachida KABBOURI", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Sandrine RUCHOT", 
+            "numPanneau": "3", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "Franck GILLERON", 
+            "pdf": "1_94-09-3-acc", 
+            "pdf_acc": "1_94-09-3-acc"
+          }, 
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Christian BENEDETTI", 
+            "numPanneau": "4", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "Nina SERON", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Sandra REGOL", 
+            "numPanneau": "5", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "Anissa TIBAH", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Isabelle SANTIAGO", 
+            "numPanneau": "6", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "Jean COUTHURES", 
+            "pdf": "1_94-09-6-acc", 
+            "pdf_acc": "1_94-09-6-acc"
+          }, 
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Fatmata KONATE", 
+            "numPanneau": "7", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "Gr\u00e9goire VERNY", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Jonathan ROSENBLUM", 
+            "numPanneau": "8", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "Bernadette HERAULT", 
+            "pdf": "1_94-09-8-acc", 
+            "pdf_acc": "1_94-09-8-acc"
+          }, 
+          {
+            "codeCirconscription": "94-09", 
+            "candidat": "Ga\u00ebtan DUSSAUSAYE", 
+            "numPanneau": "9", 
+            "circonscription": "9\u00e8me circonscription", 
+            "suppleant": "Fran\u00e7ois PARADOL", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }
+        ], 
+        "name": "9\u00e8me circonscription"
+      }
+    }, 
+    "name": "Val-de-Marne"
+  }, 
+  "78": {
+    "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_circonscriptions_dpt_78", 
+    "circonscriptions": {
+      "78-11": {
+        "url": "https://programme-candidats.interieur.gouv.fr/ajax/1_candidats_circonscription_78-11", 
+        "candidats": [
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Olivier GALLANT", 
+            "numPanneau": "1", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Florence BERNARD", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Laurent MORIN", 
+            "numPanneau": "2", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Denise HEUZE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Pierre LUCE", 
+            "numPanneau": "3", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Christelle LANTOINE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Abdelaziz CHNEGUIR", 
+            "numPanneau": "4", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Vanessa ININGOUE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "J\u00e9r\u00e9my BIZET", 
+            "numPanneau": "5", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Vincent JACQUES", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Kamal BENMAROUF", 
+            "numPanneau": "6", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Linda ZERHDY", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Nicolas MANDJINY", 
+            "numPanneau": "7", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Sonia PRABAGAR", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Patrick PLANQUE", 
+            "numPanneau": "8", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Christine EGASSE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Laurent COCHETON", 
+            "numPanneau": "9", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Jonathan BOUILLONNEC", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Philippe BENASSAYA", 
+            "numPanneau": "10", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Othman NASROU", 
+            "pdf": "1_78-11-10", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Sandrine GRANDGAMBE", 
+            "numPanneau": "11", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Nicolas FARRE", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }, 
+          {
+            "codeCirconscription": "78-11", 
+            "candidat": "Val\u00e9rie FROBERGER", 
+            "numPanneau": "12", 
+            "circonscription": "11\u00e8me circonscription", 
+            "suppleant": "Thibaut LANGLOIS", 
+            "pdf": "0", 
+            "pdf_acc": "0"
+          }
+        ], 
+        "name": "11\u00e8me circonscription"
+      }
+    }, 
+    "name": "Yvelines"
+  }
+}
