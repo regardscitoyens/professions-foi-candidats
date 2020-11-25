@@ -9,6 +9,7 @@ import requests
 HOSTURL = 'https://programme-candidats.interieur.gouv.fr/'
 DATAURL = HOSTURL + 'data-jsons/'
 DATAURL2 = HOSTURL + 'ajax/data/'
+DATAURL3 = HOSTURL + 'ajax/'
 PDFSURL = HOSTURL + "data-pdf-propagandes/"
 
 def downloadPDF(eldir, filename, url, retries=3):
@@ -211,6 +212,59 @@ def scrape_municipales(elcode="MN20"):
         print "%s: %s new documents collected (%s total candidates are published out of %s listed in %s departments and %s communes)." % (elcode, nb_n, nb_d, nb_c, nb_dep, nb_com)
 
 
+def scrape_partielles(elcode="LG20"):
+    eldir = os.path.join("documents", elcode)
+    if not os.path.exists(eldir):
+        os.makedirs(eldir)
+    for tour in [1, 2]:
+        nb_dep = 0
+        nb_circo = 0
+        nb_c = 0
+        nb_d = 0
+        nb_n = 0
+        url = DATAURL3 + "%s_departements" % tour
+        data = {}
+        for dept in request_data(url, "departements"):
+            nb_dep += 1
+            depcode = dept["id"]
+            depname = dept["name"]
+            depurl = DATAURL3 + "%s_circonscriptions_dpt_%s" % (tour, depcode)
+            data[depcode] = {
+                "name": depname,
+                "url": depurl,
+                "circonscriptions": {}
+            }
+            deptdir = os.path.join(eldir, depcode)
+            if not os.path.exists(deptdir):
+                os.makedirs(deptdir)
+            for circo in request_data(depurl, "data"):
+                nb_circo += 1
+                circocode = circo["codeCirconscription"]
+                circoname = circo["circonscription"]
+                circourl = DATAURL3 + "%s_candidats_circonscription_%s" % (tour, circocode)
+                data[depcode]["circonscriptions"][circocode] = {
+                    "name": circoname,
+                    "url": circourl,
+                    "candidats": request_data(circourl, "data")
+                }
+                circodir = os.path.join(deptdir, circocode)
+                if not os.path.exists(circodir):
+                    os.makedirs(circodir)
+                for candidat in data[depcode]["circonscriptions"][circocode]["candidats"]:
+                    nb_c += 1
+                    name = candidat["candidat"].split(",")[0].replace(" ", "_")
+                    codeId = "%s-%s-%s-%s-%s-tour%s-" % (elcode, depcode, circocode, name, candidat["numPanneau"], tour)
+                    if candidat["pdf"] != "0":
+                        nb_d += 1
+                        nb_n += downloadPDF(circodir, codeId + "profession_foi", PDFSURL + "%s.pdf" % candidat["pdf"])
+
+        with open(os.path.join(eldir, "%s-tour%s-metadata.json" % (elcode, tour)), "w") as f:
+            json.dump(data, f, indent=2)
+        if nb_n:
+            print "%s tour %s: %s new documents collected (%s total candidates are published out of %s listed in %s departments and %s circonscriptions)." % (elcode, tour, nb_n, nb_d, nb_c, nb_dep, nb_circo)
+
+
+
 if __name__ == '__main__':
     election = ""
     if len(sys.argv) > 1:
@@ -219,6 +273,8 @@ if __name__ == '__main__':
         collect_regionales()
     elif election == "MN20":
         scrape_municipales()
+    elif election == "LG20":
+        scrape_partielles()
     else:
         for el in list_elections():
             if not election or election == el["code"]:
